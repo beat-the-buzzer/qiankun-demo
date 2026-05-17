@@ -1,0 +1,21 @@
+{
+  "name": "sub-app-react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 8082",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "qiankun": "^2.10.16",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^3.7.2",
+    "vite": "^5.4.11",
+    "vite-plugin-qiankun": "^1.0.15"
+  }
+}

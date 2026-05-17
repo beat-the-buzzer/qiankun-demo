@@ -1,0 +1,91 @@
+.react-sub-app { padding: 20px; }
+.header {
+  text-align: center;
+  padding: 15px;
+  background: linear-gradient(135deg, #61dafb, #282c34);
+  border-radius: 8px;
+  color: white;
+  margin-bottom: 20px;
+}
+.header h2 { margin: 0 0 10px; }
+.nav-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.nav-buttons button {
+  width: auto;
+  padding: 6px 16px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  font-size: 13px;
+}
+.nav-buttons button:hover,
+.nav-buttons button.active {
+  background: white;
+  color: #282c34;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.card {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  border: 1px solid #eee;
+}
+.card h3 {
+  margin: 0 0 15px;
+  font-size: 14px;
+  color: #61dafb;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.avatar { width: 50px; height: 50px; border-radius: 50%; }
+.user-info p { margin: 3px 0; color: #333; }
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  background: #61dafb;
+  color: #282c34;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover { background: #282c34; color: #61dafb; }
+.tip { font-size: 12px; color: #999; margin-top: 10px; }
+.received {
+  padding: 15px;
+  background: #e3f2fd;
+  border-radius: 4px;
+  color: #1565c0;
+}
+.child-section {
+  margin-top: 10px;
+}
+.child-tip {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+#grandchild-container {
+  min-height: 150px;
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+  padding: 10px;
+}
