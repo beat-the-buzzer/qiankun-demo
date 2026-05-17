@@ -21,6 +21,6 @@ app.use(ElementPlus)
 app.mount('#app')
 
 registerMicroApps(microApps)
-start({ prefetch: true })
+start({ prefetch: true }) // 子应用的预加载
 
 console.log('🎉 [主应用] qiankun 已启动！')
